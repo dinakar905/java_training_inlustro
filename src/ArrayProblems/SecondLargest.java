@@ -10,7 +10,7 @@ public class SecondLargest {
                 max = num;
             } else if (num > secondMax && num < max) {
                 secondMax = num;
-            }
+            } 
         }
         if (secondMax == Integer.MIN_VALUE) {
             System.out.println("-1");
